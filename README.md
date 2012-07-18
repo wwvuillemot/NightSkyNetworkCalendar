@@ -45,4 +45,4 @@ Second, add the Javascript and CCS along with your configuration to the HTML pag
 		</body>
 	</html>
 
-Please read [how to further configure](wiki/Configuration).
+Please read [how to further configure](NightSkyNetworkCalendar/wiki/Configuration).
