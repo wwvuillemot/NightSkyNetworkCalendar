@@ -2,9 +2,9 @@
 
 Add a [NightSky](http://nightsky.jpl.nasa.gov/) calendar of events for your astronomy club quickly and easily to your blog or website (purely client-side code).
 
-[[nsn-calendar.png|width=551px|frame|Night Sky Network calendar]]
+Here is an [example screenshot](https://github.com/wwvuillemot/NightSkyNetworkCalendar/blob/master/nsn-calendar.png).
 
-You can [read more on our wiki](https://github.com/wwvuillemot/NightSkyNetworkCalendar/wiki).
+Also, you can [read more on our wiki](https://github.com/wwvuillemot/NightSkyNetworkCalendar/wiki) about how to configure, et cetera.
 
 # How to Setup
 
