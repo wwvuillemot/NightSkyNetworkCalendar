@@ -118,7 +118,7 @@ function Calendar(){
 	  this.today.setMilliseconds(0);
 	  this.today_in_calendar = false;
 	
-	  this.calendar_div = $('#'+ this.calendar_div_id ));
+	  this.calendar_div = $('#'+ this.calendar_div_id );
 	  this.calendar_div.html(
 "	<div id='calendar_header'> " +
 "      <div id='calendar_previous'></div> " +
@@ -227,7 +227,7 @@ function Calendar(){
         var image_link = document.createElement('a');
         $(image_link).attr({
           href:  moonphase_link.text(),
-          target: '_blank'
+          rel: 'external'
         });
         var div = $(document.createElement('div'));  
         div.attr({ class: 'moonphase' });          
@@ -290,7 +290,7 @@ function Calendar(){
 	  var title = event.find('title');
 	  var event_url = event.find('eventurl');
 	  var event_link = document.createElement('a');
-	  $(event_link).attr({ href: event_url.text() });
+	  $(event_link).attr({ href: event_url.text(), rel: 'external' });
 	  var div = $(document.createElement('div'));
 	  div.attr({ class: 'title' });
 	  a_event_div.append( div.html( $(event_link).html( title ) ) );
@@ -327,7 +327,7 @@ function Calendar(){
 	    var event_location_link = document.createElement('a');
 	    $(event_location_link).attr({
 	      href: 'https://maps.google.com/maps?q=' + event_latitude + ',+' + event_longitude + '+(' + encodeURI(event_location_name) + ')&iwloc=A',
-	      target: 'sas_event'
+	      rel: 'external'
 	    });
 	    var div = $(document.createElement('div'));
 	    div.attr({ class: 'location' });
@@ -349,7 +349,8 @@ function Calendar(){
           link_title = link_type;
         var link = document.createElement('a');
         $(link).attr({
-          href: link_url.text()
+          href: link_url.text(),
+          rel: 'external'
         });
         var div = $(document.createElement('div'));
         div.attr({ class: 'link' });
