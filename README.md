@@ -33,6 +33,7 @@ Second, add the Javascript and CCS along with your configuration to the HTML pag
 		    will work out-of-the-box.
  		    -->
 			<script type="text/javascript>
+			        var calendar;
 				$(document).ready( function() {
 
 				  configuration = { 
